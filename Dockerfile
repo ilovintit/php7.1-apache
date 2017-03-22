@@ -14,10 +14,10 @@ RUN apt-get update && apt-get install -y \
     libsqlite3-dev \
     git \
     curl \
+    libcurl3-dev \
     rsyslog \
     cron \
     supervisor \
-    cron \
     unzip \
     libicu-dev \
     --no-install-recommends \
