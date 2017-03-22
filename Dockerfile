@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y \
     libltdl7 \
     libltdl-dev \
     libpq-dev \
+    libsqlite3-dev \
     git \
     curl \
     rsyslog \
