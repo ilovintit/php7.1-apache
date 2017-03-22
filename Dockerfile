@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     zlib1g-dev \
     libltdl7 \
     libltdl-dev \
+    libpq-dev \
     git \
     curl \
     rsyslog \
