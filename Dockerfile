@@ -8,6 +8,8 @@ RUN apt-get update && apt-get install -y \
     libpng12-dev \
     libmemcached-dev \
     zlib1g-dev \
+    libltdl7 \
+    libltdl-dev \
     git \
     curl \
     rsyslog \
