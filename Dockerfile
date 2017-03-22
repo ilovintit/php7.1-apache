@@ -1,4 +1,4 @@
-FROM php:apache
+FROM php:7.1-apache
 MAINTAINER ilovintit <ilovintit@gmail.com>
 
 RUN apt-get update && apt-get install -y \
