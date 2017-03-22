@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
     supervisor \
     cron \
     unzip \
+    libicu-dev \
     --no-install-recommends \
     && docker-php-ext-install -j$(nproc) iconv intl mbstring mcrypt opcache pdo_mysql pdo_pgsql pgsql zip pdo_sqlite curl \
     && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
