@@ -52,4 +52,6 @@ RUN { \
     	echo 'SetEnv HTTPS ${FORCE_HTTPS}';\
     echo '</VirtualHost>';\
 } > /etc/apache2/sites-available/000-default.conf
+ENV HTTPS off
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+RUN echo "export FORCE_HTTPS=\${HTTPS}" >> /etc/apache2/envvars
